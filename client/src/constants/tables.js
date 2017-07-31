@@ -1,0 +1,85 @@
+export default [
+  {
+    type: 'chair',
+    label: 'Chair',
+    group: 'seating',
+    chairs:0,
+    size:1
+  },
+  {
+    type: 'square-4',
+    group: 'square',
+    label: 'Square Table(4)',
+    chairs: {
+      top: 1,
+      left: 1,
+      bottom: 1,
+      right: 1,
+    },
+    size: 1,
+  },
+  {
+    type: 'square-8',
+    group: 'square',
+    label: 'Square Table(8)',
+    chairs: {
+      top: 2,
+      left: 2,
+      bottom: 2,
+      right: 2,
+    },
+    size: 1,
+  },
+  {
+    type: 'square-0',
+    group: 'square',
+    label: 'Square Table(empty)',
+    chairs: {
+      top: 0,
+      left: 0,
+      bottom: 0,
+      right: 0,
+    },
+    size: 1,
+  },
+  {
+    type: 'rect-8',
+    group: 'rect',
+    label: 'Rectangle Table(8)',
+    chairs: {
+      top: 3,
+      left: 1,
+      bottom: 3,
+      right: 1,
+    },
+    width: 3,
+    height: 1,
+  },
+  {
+    type: 'rect-12',
+    group: 'rect',
+    label: 'Rectangle Table(12)',
+    chairs: {
+      top: 4,
+      left: 2,
+      bottom:4,
+      right: 2,
+    },
+    width: 2,
+    height: 1,
+  },
+  {
+    type: 'circle-4',
+    group: 'circle',
+    label: 'Circular Table(4)',
+    chairs: 4,
+    size: 1,
+  },
+  {
+    type: 'circle-0',
+    group: 'circle',
+    label: 'Circular Table(empty)',
+    chairs: 0,
+    size: 1,
+  },
+];
